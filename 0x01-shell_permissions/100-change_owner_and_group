@@ -1,2 +1,4 @@
 #!/bin/bash
-chown -hR vincent:staff 0x01-shell_permissions
+for file in *; do
+chown vincent:staff $file
+done
